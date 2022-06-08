@@ -15,9 +15,11 @@ jobs:
     
     
       - name: step 2 - Add artifacts to publish to temp folder
-        run:
+        run: |
          cd downloads 
          echo 'alpha'    >  alpha.html
+         echo 'bravo'    >  bravo.html
+         echo 'charlie'  >  charlie.html
          cd ..
       
       

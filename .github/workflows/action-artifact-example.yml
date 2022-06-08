@@ -18,8 +18,6 @@ jobs:
         run:
          cd downloads 
          echo 'alpha'    >  alpha.html
-         echo 'bravo'    >  bravo.html
-         echo 'charlie'  >  charlie.html
          cd ..
       
       
